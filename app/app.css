@@ -1,0 +1,19 @@
+/* Импорт Tailwind CSS */
+@import "tailwindcss";
+
+/* Настройка темы - шрифты по умолчанию */
+@theme {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+/* Установка цвета границ по умолчанию */
+*,
+::after,
+::before {
+  border-color: #e5e7eb; /* stone-200 */
+}
+
+/* Глобальные стили для html и body */
+html, body {
+  @apply bg-stone-50 text-stone-900;
+}
